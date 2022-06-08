@@ -31,7 +31,7 @@ function Navbar() {
       <nav className='navbar'>
       <div className='navbar-container'>
       <Link to="/" className='navbar-logo' onClick= {closeMobileMenu}>
-      TRVL <i className="fa-brands fa-typo3"></i> 
+      XPLORE <i className="fa-solid fa-passport"></i> 
       </Link>
       <div className='menu-icon' onClick={handleClick}>
       <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
