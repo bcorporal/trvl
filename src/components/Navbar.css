@@ -90,6 +90,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      justify-content: flex-start;
     }
   
     .nav-menu.active {
@@ -131,7 +132,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: rgb(255, 255, 255);
       font-size: 2rem;
     }
   
@@ -140,11 +141,11 @@
       text-align: center;
       margin: 2rem auto;
       border-radius: 4px;
-      width: 80%;
+      width: 70%;
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: rgb(255, 255, 255);
       padding: 14px 20px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
